@@ -1,0 +1,51 @@
+ table {
+ 	width: 100%;
+ 	border-collapse: collapse;
+ }
+
+ table th,
+ table td {
+ 	padding: 1rem;
+ 	font-size: 1.6rem;
+ 	text-align: center;
+ 	padding: 8px;
+ 	vertical-align: middle;
+ }
+
+ table th {
+ 	background-color: #234589;
+ 	color: white;
+ }
+
+ table tbody tr:nth-child(even) {
+ 	background-color: #EEF9FF
+ }
+
+ table tr td:first-child {
+ 	text-align: left;
+ 	font-weight: bold;
+ }
+
+ 
+
+ .table-container {
+	padding: 2rem 1rem;
+ }
+
+ table tbody tr:hover {
+	background-color: rgba(238, 173, 45, 0.5)
+ }
+
+ .table-container h3 {
+	font-size: 1.8rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+ }
+
+ .table-container tfoot td {
+	font-weight: bold;
+ }
+
+ #lnfont {
+	font-weight: bold;
+ }
