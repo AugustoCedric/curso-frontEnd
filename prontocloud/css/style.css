@@ -13,7 +13,7 @@ body {
 .main-container {
     display: block;
     width: 100vw;
-    /* width: 195vh; */
+    width: 195vh;
     margin: 0 auto;
 }
 
@@ -47,7 +47,9 @@ h1 {
 
 
 .imagem {
-    width: 65%;
+    width: 60%;
+    /* margin: auto; */
+    display: block;
     padding-bottom: 20px;
 }
 
