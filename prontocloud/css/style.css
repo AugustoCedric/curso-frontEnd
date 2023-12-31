@@ -37,7 +37,7 @@ header {
 }
 
 .header-container {
-    background-color: #202044;
+    background-color: #DFDFDF
 }
 
 h1 {
@@ -48,7 +48,7 @@ h1 {
 
 
 .imagem {
-    max-width: 60%;
+    max-width:100%;
     height: auto;
     display: block;
     padding-bottom: 20px;
