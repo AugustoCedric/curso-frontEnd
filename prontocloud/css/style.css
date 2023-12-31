@@ -53,6 +53,15 @@ h1 {
     padding-bottom: 20px;
 }
 
+.imagem2 {
+    width: 90%;
+    /* margin: auto; */
+    display: block;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
 #titulo-p {
     font-size: 3rem;
     color: #3C3C3C;
@@ -137,6 +146,7 @@ nav a:hover {
     color: #385874;
 }
 
+
 section article {
     display: block;
     float: left;
@@ -160,4 +170,10 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+
+
+.cog-abuse, .cog-branding{
+    display: none !important;
+    visibility: hidden !important;
 }
