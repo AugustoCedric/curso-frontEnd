@@ -21,8 +21,9 @@ body {
     display: block;
     float: left;
     padding: 20px;
-    width: 100%;
+    max-width:100%;
     margin: 0 auto;
+    max-width: 1198px;
 }
 
 
@@ -47,8 +48,8 @@ h1 {
 
 
 .imagem {
-    width: 60%;
-    /* margin: auto; */
+    max-width: 60%;
+    height: auto;
     display: block;
     padding-bottom: 20px;
 }
@@ -177,3 +178,8 @@ footer small {
     display: none !important;
     visibility: hidden !important;
 }
+
+#tenho-interesse, .cog-form__content{
+    background-color: #b8c8d6 !important;
+}
+
